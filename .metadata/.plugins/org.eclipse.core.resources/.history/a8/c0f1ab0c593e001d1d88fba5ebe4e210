@@ -1,0 +1,19 @@
+package com.sam;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		int a=0,b=1;
+		int c=a+b;
+		System.out.println(a);
+		System.out.println(b);
+		
+		 for(int i=a;i<=100;i++)
+		 {
+			 c=a+b;
+			System.out.println(c);		 
+		 }
+
+	}
+
+}
